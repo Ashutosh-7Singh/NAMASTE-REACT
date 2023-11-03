@@ -1,0 +1,32 @@
+Q1:What is npm?
+Ans:npm is the largest registory,
+Q:What is npm init
+Q2:What is package.json
+Ans:package.json is a configuration for npm
+Q3:Why do we need package.json
+Ans:
+Q4:What is bundler(webpack,parcel,wheat)
+Ans:bundler acutally bundle or package ur app properly so it can be sheeped to the production
+    and webpack,parcel and wheat are the bundler 
+    we use parcel
+
+NOTES*******************
+There are two type of depednecies we can installl
+    1:Dev depednecies
+    2:Normal depednecies
+Q:what is Dev depednecies
+Ans:when we say a dev depednecies it means it is generally requires for inner development phase when we are developing our app we require dev depednecies
+
+Q:what is Normal depednecies
+Ans:normal depednecies are used in production also
+
+# diff between normal and dev depednecies
+# so parcel is a bundler ,cunking,minification,is not done on production we wiil do this 
+     in a development pahse so we will use PARCEL as a dev depednecies
+     fo dev depednecies (npm install -D parcel) not a normal depednecies (-D for dev depednecies)
+     PARCEL IS A beast it will do lot of thing for our app it is just like skeletion and parcel will give muscle ,strength ,power
+     "parcel":"^2.8.3" here ^ is call carret ans when we put ^(carret)before version this means when any minor update is come it will update the parcel automatically ex=new version is 2..8.4 
+     then  ^(carret) will automatically update it 
+
+Q:What is package-lock.json (that come after parcel installation)
+Ans: package-lock.json keeps a track of exact version that is being install Suppose  today 2.8.4 is released my package.jason will stay like this ok  my package.json ave ^(carret) on it  

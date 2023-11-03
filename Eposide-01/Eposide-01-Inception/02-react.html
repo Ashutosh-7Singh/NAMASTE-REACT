@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script crossorigin
+   src="https://unpkg.com/react@18/umd/react.development.js">
+  </script>
+<script crossorigin 
+src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+</script>
+
+<script>
+  //how we can create aa h1 tag in react so in js we use document.createElement and in react we use react.createElement
+
+  const heading=React.createElement("h1",{},"Hello world from React!");//React.createElement creates a (h1) element inside react
+
+  // we have to create root inside react for our react library
+  const root=ReactDOM.createRoot(document.getElementById("root"))
+  //now we have to render heading inside the root BY using root.render()
+  root.render(heading);
+</script>
+</body>
+</html>

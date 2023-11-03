@@ -1,0 +1,5 @@
+Q1:What is CDN
+Q2:Why we use CDN
+Q3:what is crossorigin
+Q4:what us react.createElement
+Q5:what is root.render

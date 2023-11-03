@@ -1,0 +1,23 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react by  Ashutosh Singh",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashutosh7Singh/NAMASTE-REACT.git"
+  },
+  "keywords": [],
+  "author": "Ashutosh Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashutosh7Singh/NAMASTE-REACT/issues"
+  },
+  "homepage": "https://github.com/Ashutosh7Singh/NAMASTE-REACT#readme",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}

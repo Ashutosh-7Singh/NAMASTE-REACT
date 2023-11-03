@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+// how we print hello world inside javascript
+
+    const heading=document.createElement("h1")//creating h1 heading in html using js
+    heading.innerHTML=("Hello World from javascript!");//putting the value in heading or in h1
+    
+
+    const root = document.getElementById("root"); //we got the root this root giveing reference of this div tag now we have to put heading inside the div tag we can do this by using    
+    
+    root.appendChild(heading);//appendchild is a method using which heading as a child of root go inside the div tag
+  </script>
+</body>
+</html>
